@@ -42,6 +42,7 @@
 #define LUA_REGISTRYINDEX	(-LUAI_MAXSTACK - 1000)
 #define lua_upvalueindex(i)	(LUA_REGISTRYINDEX - (i))
 
+extern int CLUA_REGISTRYINDEX;
 
 /* thread status */
 #define LUA_OK		0

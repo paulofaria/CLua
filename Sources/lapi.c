@@ -29,7 +29,7 @@
 #include "lundump.h"
 #include "lvm.h"
 
-
+int CLUA_REGISTRYINDEX = LUA_REGISTRYINDEX;
 
 const char lua_ident[] =
   "$LuaVersion: " LUA_COPYRIGHT " $"
